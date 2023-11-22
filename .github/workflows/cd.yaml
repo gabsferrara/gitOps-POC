@@ -41,11 +41,11 @@ jobs:
     
     - name: Debug
       run: |
-        echo "GitHub Token: ${{ secrets.TOKEN }}"
+        echo "GitHub Token: ${{ secrets.GITHUB_TOKEN }}"
 
     - name: Push
       uses: ad-m/github-push-action@master
       with:
-        github_token: ${{ secrets.TOKEN }}
+        github_token: ${{ secrets.GITHUB_TOKEN }}
         repository: gabsferrara/gitOps-POC
          
