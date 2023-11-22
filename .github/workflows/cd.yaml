@@ -18,7 +18,7 @@ jobs:
       with:
         username: ${{secrets.DOCKER_USERNAME}}
         passowrd: ${{secrets.DOCKER_PASSWORD}}
-        repository: ${{secrets.DOCKER_USERNAME}}/gitopsfc
+        repository: ${{secrets.DOCKER_USERNAME}}/gitopspoc
         tags: ${{ github.sha }}, latest
 
     
