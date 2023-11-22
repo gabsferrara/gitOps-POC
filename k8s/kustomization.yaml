@@ -9,4 +9,4 @@ resources:
 images:
 - name: goserver
   newName: gabsferrara/gitopspoc
-  newTag: anytag
+  newTag: 3b7f884a7d8ad13d8f166344df81854f42a6dd6d
